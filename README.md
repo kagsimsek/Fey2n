@@ -11,6 +11,8 @@ Currently, only the case n = 2 is supported, hence the name Fey4 (as in "phi-4 t
 
 Items to improve:
 
+[x] Instead of a notebook, convert it to an .m file for better run time, though I'm not sure if this is a myth or not.
+
 [x]	The DiracChain operator should be improved so as to contain 2n-fermion operators in the SMEFT.
 
 [ ]	There should be a smarter way to extract the vertex types, which can indeed be done with a simple For loop, which I will do next probably.
