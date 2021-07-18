@@ -1,4 +1,4 @@
-Mathematica notebook to compute the Feynman rules for dimension-2n Standard Model (Effective Field Theory) (SM(EFT)) in the Feynman gauge.
+Mathematica -notebook- .m file to compute the Feynman rules for dimension-2n Standard Model (Effective Field Theory) (SM(EFT)) in the Feynman gauge.
 
 v0.1.1.
 
