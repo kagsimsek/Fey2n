@@ -1,5 +1,7 @@
 Mathematica notebook to compute the Feynman rules for dimension-2n Standard Model (Effective Field Theory) (SM(EFT)) in the Feynman gauge.
 
+v0.1.1.
+
 The vertex factors are printed out to a pdf.
 
 Requires pdflatex and GNU version of sed.
