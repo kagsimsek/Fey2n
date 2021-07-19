@@ -119,6 +119,8 @@ $Assumptions = {
 
 ClearAll[NotFieldQ, ParamQ, ScalarsQ, VectorsQ, FermionsQ]
 
+NotFieldQ[x_ + y_] := NotFieldQ[x] + NotFieldQ[y]
+NotFieldQ[x_ y_] := NotFieldQ[x] NotFieldQ[y]
 NotFieldQ[x_] := !ContainsAny[
   {x, Head @ x, First @ x, Head @ First @ x},
   Join[
