@@ -119,7 +119,7 @@ $Assumptions = {
 
 ClearAll[NotFieldQ, ParamQ, ScalarsQ, VectorsQ, FermionsQ]
 
-NotField[x_] := !ContainsAny[
+NotFieldQ[x_] := !ContainsAny[
   {x, Head @ x, First @ x, Head @ First @ x},
   Join[
     Head /@ VectorFields[[All, 1]],
@@ -143,7 +143,7 @@ FermionsQ[x_] := ContainsAny[
 
 ClearAll[ECharge, LeptonNumber, QuarkNumber]
 
-ECharge[a_ + b_] := ECharge[a] + Echarge[b]
+ECharge[a_ + b_] := ECharge[a] + ECharge[b]
 ECharge[a_ b_] := ECharge[a] ECharge[b]
 ECharge[x_?ArrayQ] := Module[
   {arr, i},
